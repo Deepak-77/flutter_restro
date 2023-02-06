@@ -109,7 +109,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
         BlocBuilder<BottomNavigationBloc, BottomNavigationState>(
             builder: (BuildContext context, BottomNavigationState state) {
               return FABBottomAppBar(
-                centerItemText: "fkdjfkl",
+                centerItemText: "hellohello",
                 color: ConstantColor.white,
                 selectedColor: ConstantColor.white,
                 iconSize: 25.0,

@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-
 import 'bottom_navigation_event.dart';
 import 'bottom_navigation_state.dart';
 

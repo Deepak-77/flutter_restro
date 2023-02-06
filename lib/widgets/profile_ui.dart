@@ -75,7 +75,7 @@ class _ProfileUiState extends State<ProfileUi> {
                     height: 5.0,
                   ),
                   Text(
-                    "Sobhakhar Poudel",
+                    "Deepak Upreti",
                     style: TextStyle(
                       color: ConstantColor.black,
                       fontSize: 17.0,
@@ -83,7 +83,7 @@ class _ProfileUiState extends State<ProfileUi> {
                     ),
                   ),
                   Text(
-                    "98-xxxxxx | test@gmail.com",
+                    "98-08062873 | deepakUp@gmail.com",
                     style: TextStyle(
                       color: ConstantColor.grey,
                       fontSize: 14.0,

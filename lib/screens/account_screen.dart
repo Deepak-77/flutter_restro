@@ -13,7 +13,7 @@ class _AccountScreenState extends State<AccountScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppbar(title: "title"),
+      appBar: MyAppbar(title: "My Profile"),
       body: Container(
         child: ProfileUi(),
       ),

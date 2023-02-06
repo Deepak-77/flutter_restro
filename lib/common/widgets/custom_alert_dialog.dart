@@ -114,7 +114,7 @@ class CustomAlertDialog {
                           // ),
                         ),
                         height: 35.0,
-                        child: FlatButton(
+                        child: TextButton(
                           onPressed: btn1Action,
                           child: Text(
                             btn1Text,
@@ -124,7 +124,10 @@ class CustomAlertDialog {
                               fontWeight: FontWeight.w500,
                             ),
                           ),
-                          textColor: Colors.white,
+                          //textColor: Colors.white,
+                          style: TextButton.styleFrom(
+                            primary: Colors.blue,
+                          ),
                         ),
                       ),
                     ),
@@ -137,7 +140,7 @@ class CustomAlertDialog {
                         //   ),
                         // ),
                         height: 35.0,
-                        child: FlatButton(
+                        child: TextButton(
                             onPressed: bnt2Action,
                             child: Text(
                               btn2Text,
@@ -147,7 +150,8 @@ class CustomAlertDialog {
                                 fontWeight: FontWeight.w500,
                               ),
                             ),
-                            textColor: Colors.white),
+                            //textColor: Colors.white),
+                        ),
                       ),
                     )
                         : Container()
